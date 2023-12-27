@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menuController">
+   <children>
+      <Pane id="pane" layoutX="222.0" layoutY="237.0" prefHeight="417.0" prefWidth="756.0" stylesheets="@stylesheet.css">
+         <children>
+            <Button id="green" layoutX="229.0" layoutY="47.0" mnemonicParsing="false" onAction="#Start" prefHeight="43.0" prefWidth="293.0" stylesheets="@stylesheet.css" text="Start Game">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button id="green" layoutX="232.0" layoutY="129.0" mnemonicParsing="false" onAction="#Mode" prefHeight="43.0" prefWidth="293.0" stylesheets="@stylesheet.css" text="Mode">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button id="green" layoutX="229.0" layoutY="215.0" mnemonicParsing="false" onAction="#Shop" prefHeight="50.0" prefWidth="293.0" stylesheets="@stylesheet.css" text="Shop">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button id="green" layoutX="232.0" layoutY="305.0" mnemonicParsing="false" onAction="#Exit" prefHeight="43.0" prefWidth="293.0" stylesheets="@stylesheet.css" text="Exit">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Pane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

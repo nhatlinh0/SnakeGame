@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" prefHeight="400.0" prefWidth="600.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ModeController">
+   <children>
+      <Button id="but" layoutX="145.0" layoutY="102.0" mnemonicParsing="false" onAction="#easyMode" prefHeight="33.0" prefWidth="300.0" stylesheets="@stylesheet.css" text="EASY">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button id="but" layoutX="147.0" layoutY="154.0" mnemonicParsing="false" onAction="#normalMode" prefHeight="33.0" prefWidth="300.0" stylesheets="@stylesheet.css" text="NORMAL">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button id="but" layoutX="147.0" layoutY="208.0" mnemonicParsing="false" onAction="#hardMode" prefHeight="33.0" prefWidth="300.0" stylesheets="@stylesheet.css" text="HARD">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button id="red" layoutX="147.0" layoutY="267.0" mnemonicParsing="false" onAction="#extremeMode" prefHeight="33.0" prefWidth="300.0" stylesheets="@stylesheet.css" text="EXTREME">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
